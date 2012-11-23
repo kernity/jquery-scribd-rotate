@@ -36,8 +36,8 @@ IE support is disabled for the moment.
 It'll be fixed in a future version after I find time to debug it on an "evil" windows VM ;-)
 
 ## Screenshots
-.. image:: https://raw.github.com/kernity/jquery-scribd-rotate/master/docs/screenshot.png
-   :width: 800px
+
+![](https://raw.github.com/kernity/jquery-scribd-rotate/master/docs/screenshot.png)
 
 ## Author
 
