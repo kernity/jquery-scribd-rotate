@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="../lib/css/jquery.scribd-rotate.css">
+    </head>
+    <body>
+        <p>jQuery Scribd Rotate Demo</p>
+        <div id="embedded_doc"></div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://www.scribd.com/javascripts/scribd_api.js"></script>
+        <script type="text/javascript" src="../lib/js/jQueryRotate.js"></script>
+        <script type="text/javascript" src="../lib/js/jquery.scribd-rotate.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var scribd_doc = scribd.Document.getDoc('114202204', 'key-125pv9320u4k8rlpgg6f');
+                $('#embedded_doc').scribdRotate({
+                    scribd_doc: scribd_doc
+                });
+            })
+        </script>
+    </body>
+</html>
+

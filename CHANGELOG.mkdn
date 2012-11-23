@@ -1,0 +1,7 @@
+jQuery.scribd-rotate Changelog
+==============================
+
+v0.1.0 [Nov 23, 2012]
+---------------------
+
+* First version of jquery scribd rotate plugin

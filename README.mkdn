@@ -1,0 +1,46 @@
+# jQuery Scribd Rotate
+
+jQuery Scribd Rotate is a jQuery plugin that add rotation feature to scribd seamless viewer
+It's a simple hack that inject two button and use jqueryRotate library
+
+Be careful, it's not an official SCRIBD PLUGIN it's just a littre js monckeypatch.
+
+## Requirements
+
+This plugin use the jQueryRotate plugin to perform the rotation.
+
+http://code.google.com/p/jqueryrotate/
+
+## Usage
+
+```html
+<link rel="stylesheet" type="text/css" href="../lib/css/jquery.scribd-rotate.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.scribd.com/javascripts/scribd_api.js"></script>
+<script type="text/javascript" src="../lib/js/jQueryRotate.js"></script>
+<script type="text/javascript" src="../lib/js/jquery.scribd-rotate.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    var scribd_doc = scribd.Document.getDoc('114202204', 'key-125pv9320u4k8rlpgg6f');
+    $('#embedded_doc').scribdRotate({
+       scribd_doc: scribd_doc
+    });
+  })
+</script>
+```
+
+## Notes
+
+IE support is disabled for the moment. 
+It'll be fixed in a future version after I find time to debug it on an "evil" windows VM ;-)
+
+## Author
+
+[Khalid Yagoubi](http://www.khalidyagoubi.be) ([@kernity](http://twitter.com/kernity))
+
+## Other
+
+[MIT License](http://www.opensource.org/licenses/mit-license.php)
+
+Copyright (c) 2012, Khalid Yagoubi

@@ -1,0 +1,4 @@
+/* jQuery scribd rotate style for buttons */
+.rotate_left_icon { background: url('../img/ic_rotate_left.png') 50% 0 no-repeat; width: 15px; height: 16px; display: inline-block;}
+.rotate_right_icon { background: url('../img/ic_rotate_right.png') 50% 0 no-repeat; width: 15px; height: 16px; display: inline-block;}
+div.rotate_left, div.rotate_right { display:'inline-block'; padding:5px; cursor: pointer; }
